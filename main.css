@@ -1,5 +1,5 @@
 :root {
-    --accent-color: navy;
+    --accent-color: darkblue;
 }
 
 body {
@@ -10,4 +10,5 @@ body {
 .header-div {
     background-color: var(--accent-color);
     color: white;
+    text-align: center;
 }
