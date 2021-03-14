@@ -1,0 +1,13 @@
+:root {
+    --accent-color: navy;
+}
+
+body {
+    font-family: Lato, sans-serif;
+    background-color: lightgray;
+}
+
+.header-div {
+    background-color: var(--accent-color);
+    color: white;
+}
