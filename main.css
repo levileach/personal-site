@@ -1,5 +1,5 @@
 :root {
-    --accent-color: darkblue;
+    --accent-color: darkslategray;
 }
 
 body {
@@ -11,4 +11,16 @@ body {
     background-color: var(--accent-color);
     color: white;
     text-align: center;
+}
+
+.page-container {
+    display: grid;
+    width: 80%;
+    margin: auto;
+    grid-template-columns: 30% 70%;
+    background-color: white;
+    padding: 2%;
+}
+.contact-div {
+    color: var(--accent-color);
 }
